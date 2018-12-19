@@ -1,0 +1,203 @@
+/*reset.css*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /*Margin word mee in het element geteld*/
+}
+
+/*layout*/
+
+* {
+  font-family: "Verdana", Verdana, sans-serif;
+}
+
+.btn {
+  color: black;
+  background-color: white;
+  border-color: darkgrey;
+  border-radius: 4px;
+  padding: 10px;
+  display: inline-block;
+}
+
+/*menuBlock*/
+
+.menuContainer {
+  display: flex;
+  justify-content: space-around;
+  background-color: #222;
+  position: fixed;
+  width: 100%;
+  height: 65px;
+}
+
+.menu {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 10px;
+  color: white;
+  align-items: center;
+  font-size: 17px;
+}
+
+.inputMenu {
+  margin-left: auto;
+  margin-right: 10px;
+  height: 40px;
+  border-radius: 4px;
+}
+
+.about {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.services {
+  margin-left: 20px;
+}
+
+/*block1*/
+
+.blockOneContainer {
+  background-color: yellowgreen;
+  color: greenyellow;
+  justify-content: space-around;
+  overflow: hidden;
+  padding: 50px;
+  padding-top: 150px;
+}
+
+.pictureBlockOne {
+  height: 80px;
+}
+
+.blockOneLineOne {
+  display: flex;
+  font-size: 63px;
+
+}
+
+.blockOneText {
+  font-size: 20px;
+}
+
+.blockOneLineOne,
+.blockOneText,
+.btnBlockOne {
+  max-width: 850px;
+  margin-right: auto;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+/*body*/
+
+.bodyContainer {
+  max-width: 95%;
+  padding: 50px;
+  color: grey;
+  font-size: 14px;
+}
+
+.bodyHeaderOne {
+  font-size: 35px;
+  color: black;
+}
+
+.bodyHeaderTwo {
+  font-size: 25px;
+}
+
+hr {
+  margin: 20px 0;
+}
+
+.bodyBlockContainer {
+  display: flex;
+  padding: 50px;
+  color: grey;
+  justify-content: space-between;
+}
+
+.bodyBlock {
+  font-size: 13px;
+  padding-right: 50px;
+  max-width: 35%;
+}
+
+.bodyHeaderThree {
+  font-size: 25px;
+  color: #337ab7;
+}
+
+.bodyEndContainer {
+  display: flex;
+  padding: 50px;
+  color: black;
+  background-color: goldenrod;
+}
+
+.bodyHeaderFour {
+  font-size: 25px;
+}
+
+.btnEnd {
+  margin-top: 20px;
+}
+
+.bodyBlockWithBorderContainer {
+  display: flex;
+  padding: 50px;
+  color: grey;
+  justify-content: space-around;
+}
+
+.bodyBlockWithBorder {
+  border: darkgrey;
+  background-color: lightgrey;
+  width: 35%;
+  margin-right: 50px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 35px;
+}
+
+.footer {
+  font-size: 12px;
+  padding: 25px 0;
+  padding-left: 50px;
+}
+
+.link {
+  color: #337ab7;
+  text-decoration: none;
+}
+
+.link:hover {
+  color: darkblue;
+  text-decoration: underline;
+}
+
+.contact {
+  max-width: 95%;
+  padding: 50px;
+  color: grey;
+  font-size: 14px;
+}
+
+.contactInput {
+  width: 100%;
+  height: 150px;
+}
+
+.gastenboek{
+  width: 100%;
+  height: 150px;
+  border: 1px solid darkgrey; 
+}
